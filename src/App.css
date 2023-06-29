@@ -1,38 +1,59 @@
-.App {
+body {
+  background-color: bisque;
+  color: rgb(158, 101, 58);
+  padding: 2em;
+}
+
+header {
   text-align: center;
+  font-size: x-large;
+  color: #714a00;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main {
+text-align: center;
+font-size: larger;
+color: #714a00;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button-container button {
+  padding: 12px 36px;
+  font-weight: 500;
+  font-size: 25px;
+  background-color: rgb(174, 110, 8);
+  color: azure;
+  border: 6px solid rgb(202, 127, 6);
+  border-radius: 10px;
+  margin: 6px 10px;
+  transition: 400ms ease-in-out;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.button-container button:hover {
+  background-color: #c58816; 
   color: white;
+  transform: scale(1.2);
+  transition: 400ms ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
+.coffee-list {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.coffeeCard {
+  width: 300px;
+  border: 2px solid #443311;
+  border-radius: 8px;
+  background-color: rgb(249, 247, 245);
+  margin: 1em;
+
+}
+
+.coffeeCardImage {
+  width: 100%;
+  height: 200px;
+  background-position: center center;
+  background-size: cover;
 }
