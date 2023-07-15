@@ -1,4 +1,4 @@
-const gitHubUrl = "https://github.com/jsohndata/quiz-app-c11";
+const gitHubUrl = "https://github.com/Kevindietme/coffee-list--menu";
 const getFullYear = new Date().getFullYear();
 
 export default function Footer () {
