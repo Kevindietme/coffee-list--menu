@@ -1,35 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Tektur:wght@500&display=swap');
+
+
 body {
-  background-color: bisque;
-  color: rgb(158, 101, 58);
+  background: rgb(73,57,18);
+  background: linear-gradient(90deg, rgba(73,57,18,1) 0%, rgba(94,65,25,1) 7%, rgba(242,214,166,1) 89%);
   padding: 2em;
 }
 
+main img {
+  border: 3px solid rgb(231, 204, 146);
+  border-radius: 3;
+  box-shadow: #443311;
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 80%;
+  margin-top: 2em;
+}
+
+
 header {
+  font-family: 'Tektur', cursive;
   text-align: center;
-  font-size: x-large;
-  color: #714a00;
+  font-size: xx-large;
+  color: #45330e;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: large;
+  color: rgb(249, 249, 248);
+  
 }
 
 main {
+font-family: 'Lato', sans-serif;
 text-align: center;
 font-size: larger;
 color: #714a00;
+
 }
 
 .button-container button {
+  font-family: 'Lato', sans-serif;
   padding: 12px 36px;
   font-weight: 500;
   font-size: 25px;
-  background-color: rgb(174, 110, 8);
+  background-color: rgb(199, 144, 72);
   color: azure;
-  border: 6px solid rgb(202, 127, 6);
-  border-radius: 10px;
-  margin: 6px 10px;
+  border: 2px solid rgb(231, 204, 146);
+  border-radius: 6px;
+  margin: 5px 10px;
   transition: 400ms ease-in-out;
+  
 }
 
 .button-container button:hover {
-  background-color: #c58816; 
+  background-color: #e5aa42; 
   color: white;
   transform: scale(1.2);
   transition: 400ms ease-in-out;
@@ -43,9 +70,10 @@ color: #714a00;
 }
 
 .coffeeCard {
+  font-family: 'Lato', sans-serif;
   width: 300px;
-  border: 2px solid #443311;
-  border-radius: 8px;
+  border: 2px solid rgb(231, 204, 146);
+  border-radius: 5px;
   background-color: rgb(249, 247, 245);
   margin: 1em;
 
@@ -56,4 +84,11 @@ color: #714a00;
   height: 200px;
   background-position: center center;
   background-size: cover;
+
+}
+
+footer {
+  font-family: 'Tektur', cursive;
+  text-align: center;
+  margin-bottom: 2em;
 }
