@@ -1,4 +1,4 @@
-# Stopwatch timer 
+# Coffee Menu 
 ![screen shot of site](./images/cafeMenu.jpg)
 
 ## Description
